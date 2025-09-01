@@ -23,13 +23,13 @@ During the hackathon, teams will use the **digital.auto Playground** as their pr
 Through the standardized **Vehicle Signal Specification (VSS) APIs**, teams can connect their devices and control a variety of in-car actuators, such as ambient lights, windows, coffee machines, and air dispensers, turning everyday gadgets into fully integrated automotive features. Some examples of these actuators are as follows:
 
 - **Ambient Lights** – change colors, brightness, or make some cool light patterns.
-<img src="./img/Ambient_Lights.jpeg" alt="AmbientLights" width="100" height = "500" margin-bottom= "16px">
+<img src="./img/Ambient_Lights.jpeg" alt="AmbientLights" width="200" height = "1000" margin-bottom= "16px">
 
 -  **Coffee Machine** – trigger brewing cycles or create fun “car café” experiences.
-<img src="./img/Coffee_Machine.jpeg" alt="CoffeeMachine" width="100" height = "500">
+<img src="./img/Coffee_Machine.jpeg" alt="CoffeeMachine" width="200" height = "1000">
 
 - **Air Despenser** –  scents, synchronize with mood or events.
-<img src="./img/Air_Dispenser.jpeg" alt="Air Dispenser" width="100" height = "500">
+<img src="./img/Air_Dispenser.jpeg" alt="Air Dispenser" width="200" height = "1000">
 
 -  **Smart windows** – adjust tint, transparency, or create dynamic visual effects. 
 
@@ -86,7 +86,7 @@ Inside EDCAR, multiple processors work together to bring modern SDV capabilities
 
 
 This hybrid setup allows participants to experiment safely with both cloud-native SDV software and hardware-level integrations, demonstrating how consumer devices can become part of a modern mobility ecosystem. <br>
-<img src="./img/EDCAR.jpeg" alt="EDCAR" width="500" height = "300">
+<img src="./img/EDCAR.jpeg" alt="EDCAR" width="300" height = "500">
 
 ## 2. Resources
 
@@ -133,4 +133,5 @@ Show that standardized **BYOD interfaces** can turn almost any consumer gadget i
 ---
 
 🚗 **Hack. Prototype. Drive. Let’s bring BYOD to life in SDVs!**
+
 
