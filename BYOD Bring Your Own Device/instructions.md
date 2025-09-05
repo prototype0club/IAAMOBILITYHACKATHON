@@ -23,13 +23,13 @@ During the hackathon, teams will use the **digital.auto Playground** as their pr
 Through the standardized **Vehicle Signal Specification (VSS) APIs**, teams can connect their devices and control a variety of in-car actuators, such as ambient lights, windows, coffee machines, and air dispensers, turning everyday gadgets into fully integrated automotive features. Some examples of these actuators are as follows:
 
 - **Ambient Lights** – change colors, brightness, or make some cool light patterns.
-<img src="./img/Ambient_Lights.jpeg" alt="AmbientLights" width="200" height = "1000" margin-bottom= "16px">
+<img src="./img/Ambient_Lights.jpeg" alt="AmbientLights" width="500" height = "100" margin-bottom= "16px">
 
 -  **Coffee Machine** – trigger brewing cycles or create fun “car café” experiences.
-<img src="./img/Coffee_Machine.jpeg" alt="CoffeeMachine" width="200" height = "1000">
+<img src="./img/CoffeeMachine.jpg" alt="CoffeeMachine" width="500" height = "100">
 
-- **Air Despenser** –  scents, synchronize with mood or events.
-<img src="./img/Air_Dispenser.jpeg" alt="Air Dispenser" width="200" height = "1000">
+- **Air Dispenser** –  scents, synchronize with mood or events.
+<img src="./img/AirDispenser.jpg" alt="Air Dispenser" width="500" height = "100">
 
 -  **Smart windows** – adjust tint, transparency, or create dynamic visual effects. 
 
@@ -53,21 +53,23 @@ Here are a few pointers to keep in mind about the playground:
 
 **A typical development workflow in the playground with SDV-Runtime includes the following steps**:
 
-- Create a new vehicle model and name the model - 'IAA2025_TeamName'.
-<img src="./img/NewVehicleModel.png" alt="NewVehicleModel" width="700">
-
+- From the list of available models, Select the 'EDCAR' model. You can also access the model through this link: https://playground.digital.auto/model/68a585adc63a4c48cca0be49
+<img src="./img/EDCARModel.png" alt="EDCARModel" width="700">
 
 - Explore available vehicle signals in the Vehicle API subtab.
-<img src="./img/VSSAPISignals.png" alt="VSSAPISignals" width="700">
+<img src="./img/VSSAPISignalsEDCAR.png" alt="VSSAPISignals" width="700">
 
-- Connect to playground.digital.auto and select your runtime.
+- Create a new prototype within the EDCAR Model and name the prototype - 'IAA2025_TeamName_UseCaseName'. 
+<img src="./img/NewPrototypeEDCAR.png" alt="NewPrototype" width="700">
+
+- Open the SDV Code or Dashboard subtab and select runtime named "**Runtime-IAA_Hackathon**" (This will be avaliable at the time of Hackathon).
 <img src="./img/SDVRuntime.png" alt="SDVRuntime" width="700">
 
-- Develop your application using the Python editor
-<img src="./img/PrototypeSDVCode.png" alt="PrototypeSDVCode" width="700">
+- Develop your application using the Python editor.
+<img src="./img/PrototypeSDVCodeEDCAR.png" alt="PrototypeSDVCode" width="700">
 
 - Test your application within the playground environment and on the Dashboard.
-<img src="./img/PrototypeDashboard.png" alt="PrototypeDashboard" width="700">
+<img src="./img/PrototypeDashboardEDCAR.png" alt="PrototypeDashboard" width="700">
 
 To build your first application on the playground, you can refer to this site : https://docs.digital.auto/docs/epic/runtime/getting-started/first-application/index.html
 
@@ -86,7 +88,7 @@ Inside EDCAR, multiple processors work together to bring modern SDV capabilities
 
 
 This hybrid setup allows participants to experiment safely with both cloud-native SDV software and hardware-level integrations, demonstrating how consumer devices can become part of a modern mobility ecosystem. <br>
-<img src="./img/EDCAR.jpeg" alt="EDCAR" width="300" height = "500">
+<img src="./img/EDCAR.jpeg" alt="EDCAR" width="500" height = "300">
 
 ## 2. Resources
 
@@ -105,9 +107,27 @@ Below are some example VSS signals that you can use to control devices or read d
 
 **Ambient Light**
 
+Interior Lights: 
 - Vehicle.Body.AmbientLight.IsOn – turn ambient lights on/off
 - Vehicle.Cabin.Light.AmbientLight.Row1.DriverSide.Color – set RGB color of lights
 - Vehicle.Body.AmbientLight.Intensity – adjust brightness
+
+Exterior Lights: 
+- Vehicle.Body.Lights.Beam.High.IsOn
+- Vehicle.Body.Lights.Beam.Low.IsOn
+- Vehicle.Body.Lights.Brake.IsActive
+- Vehicle.Body.Lights.DirectionIndicator.Left.IsSignaling
+- Vehicle.Body.Lights.DirectionIndicator.Right.IsSignaling
+- Vehicle.Body.Lights.Hazard.IsSignaling
+- Vehicle.Body.Lights.Fog.Rear.IsOn
+- Vehicle.Body.Lights.Underglow.Left.Animation
+- Vehicle.Body.Lights.Underglow.Left.Color
+- Vehicle.Body.Lights.Underglow.Left.Intensity
+- Vehicle.Body.Lights.Underglow.Left.IsOn
+- Vehicle.Body.Lights.Underglow.Right.Animation
+- Vehicle.Body.Lights.Underglow.Right.Color
+- Vehicle.Body.Lights.Underglow.Right.Intensity
+- Vehicle.Body.Lights.Underglow.Right.IsOn
 
 **Coffee Machine**
 
@@ -133,5 +153,3 @@ Show that standardized **BYOD interfaces** can turn almost any consumer gadget i
 ---
 
 🚗 **Hack. Prototype. Drive. Let’s bring BYOD to life in SDVs!**
-
-
