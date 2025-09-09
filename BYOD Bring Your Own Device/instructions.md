@@ -1,4 +1,4 @@
-# Welcome to BYOD Hack Challenge!
+# Welcome to BYOD (Bring Your Own Device) Hack Challenge!
 
 The concept of **Bring Your Own Device (BYOD)** originates from the IT and enterprise world, where employees were encouraged to connect their personal laptops and smartphones to corporate networks. Over time, BYOD has evolved into a broader paradigm, highlighting the value of **personalized, user-driven technology ecosystems**.  
 
@@ -23,13 +23,13 @@ During the hackathon, teams will use the **digital.auto Playground** as their pr
 Through the standardized **Vehicle Signal Specification (VSS) APIs**, teams can connect their devices and control a variety of in-car actuators, such as ambient lights, windows, coffee machines, and air dispensers, turning everyday gadgets into fully integrated automotive features. Some examples of these actuators are as follows:
 
 - **Ambient Lights** – change colors, brightness, or make some cool light patterns.
-<img src="./img/Ambient_Lights.jpeg" alt="AmbientLights" width="100" height = "500" margin-bottom= "16px">
+<img src="./img/Ambient_Lights.jpeg" alt="AmbientLights" width="400" height = "500" margin-bottom= "16px">
 
 -  **Coffee Machine** – trigger brewing cycles or create fun “car café” experiences.
-<img src="./img/CoffeeMachine.jpg" alt="CoffeeMachine" width="100" height = "500">
+<img src="./img/CoffeeMachine.jpg" alt="CoffeeMachine" width="400" height = "500">
 
 - **Air Dispenser** –  scents, synchronize with mood or events.
-<img src="./img/AirDispenser.jpg" alt="Air Dispenser" width="100" height = "500">
+<img src="./img/AirDispenser.jpg" alt="Air Dispenser" width="400" height = "500">
 
 -  **Smart windows** – adjust tint, transparency, or create dynamic visual effects. 
 
@@ -88,7 +88,15 @@ Inside EDCAR, multiple processors work together to bring modern SDV capabilities
 
 
 This hybrid setup allows participants to experiment safely with both cloud-native SDV software and hardware-level integrations, demonstrating how consumer devices can become part of a modern mobility ecosystem. <br>
-<img src="./img/EDCAR.jpeg" alt="EDCAR" width="300" height = "500">
+<img src="./img/EDCARFront.jpg" alt="EDCAR" width="500" height = "600"> 
+
+### 1.3 RedHat AutoSD GoldBox (Optional)
+
+In addition to the digital.auto Playground and EDCAR, teams can also work with the AutoSD Operating System (OS) on NXP GoldBox, whic is an in-vehicle OS designed for SDVs powered by RedHat .
+
+- Once connected, participants can develop and run applications directly on the GoldBox.
+- The GoldBox interacts with the Kuksa Databroker via its APIs, enabling applications to read vehicle data and issue commands within safe parameters, which is similar to the Playground.
+
 
 ## 2. Resources
 
@@ -143,6 +151,8 @@ Exterior Lights:
 
 to quickly prototype and integrate their ideas.
 
+In addition to this, we can also provide raw ADAS data in json format with the journey video 
+
 ## 3. Live Demo
 
 Teams will demo their solutions **live** to a jury of OEM and tech-platform experts.  
@@ -153,4 +163,3 @@ Show that standardized **BYOD interfaces** can turn almost any consumer gadget i
 ---
 
 🚗 **Hack. Prototype. Drive. Let’s bring BYOD to life in SDVs!**
-
