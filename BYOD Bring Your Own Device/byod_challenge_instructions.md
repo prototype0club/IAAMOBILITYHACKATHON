@@ -31,9 +31,8 @@ Through the standardized **Vehicle Signal Specification (VSS) APIs**, teams can 
 - **Air Dispenser** –  scents, synchronize with mood or events.
 <img src="./img/AirDispenser.jpg" alt="Air Dispenser" width="400" height = "500">
 
--  **Smart windows** – adjust tint, transparency, or create dynamic visual effects. 
+-  **Smart windows** – Lightup the Welcome message on the window. 
 
-In addition, participants will have access to dummy ADAS data (e.g., speed, lane position, nearby objects), enabling them to build their own advanced applications — from gamified driving simulations to innovative safety and personalization features.
   
 All taking place inside **a vintage car, reborn as an SDV test vehicle**.
 
@@ -145,9 +144,8 @@ Exterior Lights:
 
 - Vehicle.BYOD.Airfreshner.IsOn – switch air dispenser on/off
 
-**ADAS Data (Dummy Feed)**
-
-- Vehicle.Speed – current vehicle speed
+**Smart Window**
+- Vehicle.Cabin.Door.Row1.DriverSide.Window.IsWelcome - Turn on welocme graphic on window.
 
 to quickly prototype and integrate their ideas.
 
@@ -163,3 +161,4 @@ Show that standardized **BYOD interfaces** can turn almost any consumer gadget i
 ---
 
 🚗 **Hack. Prototype. Drive. Let’s bring BYOD to life in SDVs!**
+
