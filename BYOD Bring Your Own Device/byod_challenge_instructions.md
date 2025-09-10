@@ -32,7 +32,7 @@ Through the standardized **Vehicle Signal Specification (VSS) APIs**, teams can 
 <img src="./img/AirDispenser.jpg" alt="Air Dispenser" width="400" height = "500">
 
 -  **Smart windows** – Lightup the Welcome message on the window. 
-
+<img src="./img/SmartWindow.jpg" alt="Air Dispenser" width="400" height = "500">
   
 All taking place inside **a vintage car, reborn as an SDV test vehicle**.
 
@@ -161,4 +161,5 @@ Show that standardized **BYOD interfaces** can turn almost any consumer gadget i
 ---
 
 🚗 **Hack. Prototype. Drive. Let’s bring BYOD to life in SDVs!**
+
 
