@@ -61,7 +61,7 @@ Here are a few pointers to keep in mind about the playground:
 - Create a new prototype within the EDCAR Model and name the prototype - 'IAA2025_TeamName_UseCaseName'. 
 <img src="./img/NewPrototypeEDCAR.png" alt="NewPrototype" width="700">
 
-- Open the SDV Code or Dashboard subtab and select runtime named "**Runtime-IAA_Hackathon**" (This will be avaliable at the time of Hackathon).
+- Open the SDV Code or Dashboard subtab and select runtime named "**Runtime-IAA-Hackathon**" (This will be avaliable at the time of Hackathon).
 <img src="./img/SDVRuntime.png" alt="SDVRuntime" width="700">
 
 - Develop your application using the Python editor.
@@ -161,5 +161,6 @@ Show that standardized **BYOD interfaces** can turn almost any consumer gadget i
 ---
 
 🚗 **Hack. Prototype. Drive. Let’s bring BYOD to life in SDVs!**
+
 
 
